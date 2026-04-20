@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f7faf9"/>
+  <rect x="125" y="120" width="550" height="365" rx="28" fill="#fff" stroke="#d9e2e7" stroke-width="8"/>
+  <path d="M240 355h320v70H240z" fill="#7a3f2a"/>
+  <path d="M255 260h290v95H255z" fill="#f5d6c6"/>
+  <path d="M255 260c60 35 105-35 160 0s95-30 130 0v35H255z" fill="#ef5f4c"/>
+  <circle cx="330" cy="230" r="26" fill="#b42318"/>
+  <circle cx="455" cy="230" r="26" fill="#b42318"/>
+  <text x="400" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17212b">Pasta & Ekler</text>
+</svg>

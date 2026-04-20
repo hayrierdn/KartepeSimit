@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f766e">
+    <title>QR Menü</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="menu-page">
+    <header class="topbar">
+      <img class="brand-logo" id="brandLogo" alt="Firma logosu" hidden>
+      <div>
+        <p class="eyebrow" id="tableLabel">QR Menü</p>
+        <h1 id="cafeName">Kafe</h1>
+        <p id="tagline"></p>
+      </div>
+    </header>
+
+    <main>
+      <section class="visual-strip" aria-label="Taze fırın ürünleri">
+        <img id="heroImage" src="https://images.pexels.com/photos/7405059/pexels-photo-7405059.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Simit ve fırın ürünleri">
+      </section>
+
+      <section class="search-band">
+        <label for="searchInput">Ne arıyorsunuz?</label>
+        <input id="searchInput" type="search" placeholder="Simit, poğaça, börek, ekler...">
+      </section>
+
+      <nav class="category-tabs" id="categoryTabs" aria-label="Kategoriler"></nav>
+
+      <section class="featured" id="featuredSection" hidden>
+        <div class="section-title">
+          <p>Öne Çıkanlar</p>
+          <span>Hızlı seçim</span>
+        </div>
+        <div class="featured-grid" id="featuredGrid"></div>
+      </section>
+
+      <section class="menu-list" id="menuList"></section>
+
+      <p class="note" id="serviceNote"></p>
+    </main>
+
+    <button class="cart-toggle" id="cartToggle" type="button">
+      <span>Sepet</span>
+      <strong id="cartToggleCount">0</strong>
+    </button>
+
+    <aside class="cart-panel" id="cartPanel" aria-label="Sipariş sepeti">
+      <div class="cart-head">
+        <div>
+          <strong>Sipariş Sepeti</strong>
+          <span id="cartCount">0 ürün</span>
+        </div>
+        <button class="small-button" id="closeCartButton" type="button">Kapat</button>
+        <button class="small-button" id="clearCartButton" type="button">Temizle</button>
+      </div>
+      <div class="cart-items" id="cartItems">
+        <p>Henüz ürün eklenmedi.</p>
+      </div>
+      <form class="order-form" id="orderForm">
+        <label>Sipariş türü
+          <select id="orderType">
+            <option value="table">Masaya servis</option>
+            <option value="pickup">Gel-al paket</option>
+          </select>
+        </label>
+        <div class="order-fields">
+          <input id="customerName" placeholder="Ad soyad">
+          <input id="customerPhone" placeholder="Telefon">
+          <input id="customerAddress" placeholder="Adres">
+          <input id="customerNote" placeholder="Not">
+        </div>
+        <div class="cart-total">
+          <span>Toplam</span>
+          <strong id="cartTotal">0 TL</strong>
+        </div>
+        <button class="button" type="submit">Siparişi Gönder</button>
+        <p class="status" id="orderStatus"></p>
+      </form>
+    </aside>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

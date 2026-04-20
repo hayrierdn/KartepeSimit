@@ -1,0 +1,13 @@
+{
+  "configured": true,
+  "tokenSet": true,
+  "chatIdSet": true,
+  "lastAttemptAt": "2026-04-20T08:57:01.369Z",
+  "lastResult": {
+    "ok": true,
+    "status": 200,
+    "body": "{\"ok\":true,\"result\":{\"message_id\":7,\"from\":{\"id\":8703142882,\"is_bot\":true,\"first_name\":\"Kartepe Simit Sipari\\u015f Botu\",\"username\":\"kartepe_simit_siparis_bot\"},\"chat\":{\"id\":-5128183573,\"title\":\"Kartepe Simit Sipari\\u015f\",\"type\":\"group\",\"all_members_are_administrators\":false,\"accepted_gift_types\":{\"unlimited_gifts\":false,\"limited_gifts\":false,\"unique_gifts\":false,\"premium_subscription\":false,\"gifts_from_channels\":false}},\"date\":1776675421,\"text\":\"Kartepe Simit yeni sipari\\u015f\\nT\\u00fcr: Masaya servis\\nMasa: 1\\n- Ta\\u015f F\\u0131r\\u0131n Simit x 2 = 50 TL\\n- Kar\\u0131\\u015f\\u0131k Tost x 1 = 140 TL\\nToplam: 190 TL\\nNot: Hayri\"}}",
+    "configured": true,
+    "message": "Telegram bildirimi gönderildi."
+  }
+}

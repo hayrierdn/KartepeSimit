@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f7faf9"/>
+  <circle cx="400" cy="295" r="195" fill="#fff" stroke="#d9e2e7" stroke-width="10"/>
+  <circle cx="320" cy="250" r="58" fill="#fff7d6" stroke="#f6c343" stroke-width="18"/>
+  <circle cx="480" cy="250" r="58" fill="#fff7d6" stroke="#f6c343" stroke-width="18"/>
+  <rect x="255" y="355" width="290" height="54" rx="18" fill="#0f766e"/>
+  <circle cx="290" cy="330" r="28" fill="#7a2f24"/><circle cx="370" cy="330" r="28" fill="#7a2f24"/><circle cx="450" cy="330" r="28" fill="#7a2f24"/>
+  <rect x="535" y="305" width="75" height="55" rx="12" fill="#ef5f4c"/>
+  <text x="400" y="548" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17212b">Kahvaltı</text>
+</svg>

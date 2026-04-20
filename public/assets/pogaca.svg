@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f7faf9"/>
+  <rect x="65" y="110" width="670" height="360" rx="30" fill="#fff" stroke="#d9e2e7" stroke-width="8"/>
+  <ellipse cx="400" cy="310" rx="250" ry="150" fill="#d99a43"/>
+  <path d="M175 320c80-140 365-170 455 0" fill="none" stroke="#a65f22" stroke-width="22" stroke-linecap="round"/>
+  <path d="M250 315c55-80 235-105 300 0" fill="none" stroke="#f2c47d" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="505" cy="300" r="32" fill="#f7d27d"/>
+  <text x="400" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17212b">Poğaça</text>
+</svg>

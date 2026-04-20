@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f7faf9"/>
+  <rect x="120" y="155" width="560" height="310" rx="28" fill="#fff" stroke="#d9e2e7" stroke-width="8"/>
+  <path d="M230 230h360l-45 150H185z" fill="#d99538"/>
+  <path d="M220 275h350" stroke="#f6c343" stroke-width="34" stroke-linecap="round"/>
+  <path d="M230 230h360M195 380h350" stroke="#7a431b" stroke-width="14" stroke-linecap="round" opacity=".5"/>
+  <text x="400" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17212b">Tost</text>
+</svg>

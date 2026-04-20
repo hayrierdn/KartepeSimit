@@ -1,0 +1,444 @@
+{
+  "settings": {
+    "cafeName": "Kartepe Simit",
+    "tagline": "Fırından Çıkan Mutluluk",
+    "currency": "TL",
+    "serviceNote": "Paket teslimat, gel-al ve masaya servis siparişleri alınır. Alerjen bilginiz varsa lütfen servis ekibine söyleyin.",
+    "whatsapp": "905322735350",
+    "deliveryEnabled": false,
+    "tableCount": 24,
+    "logoData": "data:image/jpeg;base64,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",
+    "heroImage": "https://images.pexels.com/photos/7405059/pexels-photo-7405059.jpeg?auto=compress&cs=tinysrgb&w=1400"
+  },
+  "categories": [
+    {
+      "id": "simit-ve-firin",
+      "name": "Simit ve Fırın",
+      "description": "Gün boyu taze, çıtır ve sıcak fırın ürünleri",
+      "items": [
+        {
+          "id": "tas-firin-simit",
+          "name": "Taş Fırın Simit",
+          "description": "Bol susamlı, çıtır klasik simit.",
+          "price": 25,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/19199375/pexels-photo-19199375.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "kasarli-simit",
+          "name": "Kaşarlı Simit",
+          "description": "Sıcak simit içinde erimiş kaşar.",
+          "price": 65,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/29446997/pexels-photo-29446997.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "sade-pogaca",
+          "name": "Sade Poğaça",
+          "description": "Yumuşak hamur, günlük üretim.",
+          "price": 35,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/20543564/pexels-photo-20543564.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "kasarli-pogaca",
+          "name": "Kaşarlı Poğaça",
+          "description": "Bol kaşarlı, sıcak servis edilir.",
+          "price": 45,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/27969786/pexels-photo-27969786.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "zeytinli-pogaca",
+          "name": "Zeytinli Poğaça",
+          "description": "Zeytin dolgulu yumuşak poğaça.",
+          "price": 45,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/7405059/pexels-photo-7405059.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "patatesli-pogaca",
+          "name": "Patatesli Poğaça",
+          "description": "Baharatlı patates iç harcı.",
+          "price": 45,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/20543564/pexels-photo-20543564.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "acma",
+          "name": "Açma",
+          "description": "Yumuşacık, tereyağ kokulu klasik açma.",
+          "price": 40,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/7405059/pexels-photo-7405059.jpeg?auto=compress&cs=tinysrgb&w=900"
+        }
+      ]
+    },
+    {
+      "id": "borekler",
+      "name": "Börekler",
+      "description": "Dilim veya porsiyon servis edilen sıcak börekler",
+      "items": [
+        {
+          "id": "adana-boregi",
+          "name": "Adana Böreği",
+          "description": "Bol peynirli, uzayan sıcak lezzet.",
+          "price": 145,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/31233888/pexels-photo-31233888.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "su-boregi",
+          "name": "Su Böreği",
+          "description": "Klasik peynirli su böreği.",
+          "price": 120,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/31233888/pexels-photo-31233888.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "kut-borek",
+          "name": "Küt Börek",
+          "description": "Çıtır katmanlı, sade servis.",
+          "price": 95,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/31233888/pexels-photo-31233888.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "kiymali-borek",
+          "name": "Kıymalı Börek",
+          "description": "Baharatlı kıyma iç harcı.",
+          "price": 125,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/31233888/pexels-photo-31233888.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "ispanakli-borek",
+          "name": "Ispanaklı Börek",
+          "description": "Ispanak ve beyaz peynir dolgulu.",
+          "price": 115,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/31233888/pexels-photo-31233888.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "kir-pidesi-peynirli",
+          "name": "Peynirli Kır Pidesi",
+          "description": "İnce hamur, peynirli iç harç.",
+          "price": 80,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/7405059/pexels-photo-7405059.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "kir-pidesi-kiymali",
+          "name": "Kıymalı Kır Pidesi",
+          "description": "Kıymalı, sıcak ve pratik.",
+          "price": 90,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/7405059/pexels-photo-7405059.jpeg?auto=compress&cs=tinysrgb&w=900"
+        }
+      ]
+    },
+    {
+      "id": "kahvalti-ve-tost",
+      "name": "Kahvaltı ve Tost",
+      "description": "Hızlı kahvaltı, tost ve yumurtalı seçenekler",
+      "items": [
+        {
+          "id": "kahvalti-tabagi",
+          "name": "Kahvaltı Tabağı",
+          "description": "Peynir, zeytin, domates, salatalık, reçel ve simit.",
+          "price": 225,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/35204462/pexels-photo-35204462.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "karisik-tost",
+          "name": "Karışık Tost",
+          "description": "Kaşar, sucuk ve domates.",
+          "price": 140,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/8042639/pexels-photo-8042639.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "kasarli-tost",
+          "name": "Kaşarlı Tost",
+          "description": "Bol kaşarlı sade tost.",
+          "price": 110,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/9240536/pexels-photo-9240536.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "sucuklu-tost",
+          "name": "Sucuklu Tost",
+          "description": "Sucuk ve kaşar ile sıcak servis.",
+          "price": 130,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/18743145/pexels-photo-18743145.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "menemen",
+          "name": "Menemen",
+          "description": "Domates, biber ve yumurta ile hazırlanır.",
+          "price": 150,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/29189659/pexels-photo-29189659.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "sahanda-yumurta",
+          "name": "Sahanda Yumurta",
+          "description": "Tereyağında sade yumurta.",
+          "price": 110,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/32903152/pexels-photo-32903152.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "sucuklu-yumurta",
+          "name": "Sucuklu Yumurta",
+          "description": "Sahanda sucuk ve yumurta.",
+          "price": 165,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/26571128/pexels-photo-26571128.jpeg?auto=compress&cs=tinysrgb&w=900"
+        }
+      ]
+    },
+    {
+      "id": "tatlilar",
+      "name": "Ekler, Pasta ve Tatlı",
+      "description": "Günlük pasta, ekler ve tatlı çeşitleri",
+      "items": [
+        {
+          "id": "ekler-cikolata",
+          "name": "Çikolatalı Ekler",
+          "description": "Kremalı, çikolata kaplamalı ekler.",
+          "price": 65,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/30919086/pexels-photo-30919086.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "ekler-karisik",
+          "name": "Karışık Ekler",
+          "description": "Çikolata, vanilya ve meyveli mini ekler.",
+          "price": 75,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/30700726/pexels-photo-30700726.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "yas-pasta-dilim",
+          "name": "Yaş Pasta Dilimi",
+          "description": "Günlük pasta çeşitlerinden dilim servis.",
+          "price": 120,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/27969786/pexels-photo-27969786.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "profiterol",
+          "name": "Profiterol",
+          "description": "Çikolata soslu, kremalı klasik tatlı.",
+          "price": 115,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/30700726/pexels-photo-30700726.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "sutlac",
+          "name": "Fırın Sütlaç",
+          "description": "Fırınlanmış geleneksel sütlü tatlı.",
+          "price": 95,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/27969786/pexels-photo-27969786.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "magnolia",
+          "name": "Magnolia",
+          "description": "Meyveli ve hafif kupta tatlı.",
+          "price": 110,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/30919086/pexels-photo-30919086.jpeg?auto=compress&cs=tinysrgb&w=900"
+        }
+      ]
+    },
+    {
+      "id": "sicak-icecekler",
+      "name": "Sıcak İçecekler",
+      "description": "Çay, kahve ve sıcak içecek çeşitleri",
+      "items": [
+        {
+          "id": "cay",
+          "name": "Çay",
+          "description": "Taze demlenmiş bardak çay.",
+          "price": 25,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/35310432/pexels-photo-35310432.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "buyuk-cay",
+          "name": "Büyük Çay",
+          "description": "Büyük bardakta demli çay.",
+          "price": 35,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/35386141/pexels-photo-35386141.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "turk-kahvesi",
+          "name": "Türk Kahvesi",
+          "description": "Sade, orta veya şekerli.",
+          "price": 85,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/16615598/pexels-photo-16615598.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "americano",
+          "name": "Americano",
+          "description": "Yoğun kahve sevenlere.",
+          "price": 95,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/16615598/pexels-photo-16615598.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "latte",
+          "name": "Café Latte",
+          "description": "Espresso ve süt dengesi.",
+          "price": 115,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/16615598/pexels-photo-16615598.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "cappuccino",
+          "name": "Cappuccino",
+          "description": "Bol köpüklü espresso bazlı kahve.",
+          "price": 115,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/16615598/pexels-photo-16615598.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "sicak-cikolata",
+          "name": "Sıcak Çikolata",
+          "description": "Yoğun çikolata aromalı sıcak içecek.",
+          "price": 105,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/16615598/pexels-photo-16615598.jpeg?auto=compress&cs=tinysrgb&w=900"
+        }
+      ]
+    },
+    {
+      "id": "soguk-icecekler",
+      "name": "Soğuk İçecekler",
+      "description": "Su, meşrubat, limonata ve soğuk içecekler",
+      "items": [
+        {
+          "id": "su",
+          "name": "Su",
+          "description": "0.5 L şişe su.",
+          "price": 15,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/7655894/pexels-photo-7655894.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "soda",
+          "name": "Soda",
+          "description": "Sade maden suyu.",
+          "price": 30,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/19116918/pexels-photo-19116918.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "kola",
+          "name": "Kola",
+          "description": "Soğuk kutu meşrubat.",
+          "price": 55,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/7655894/pexels-photo-7655894.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "fanta",
+          "name": "Fanta",
+          "description": "Portakal aromalı soğuk içecek.",
+          "price": 55,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/19116918/pexels-photo-19116918.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "visne",
+          "name": "Vişne Suyu",
+          "description": "Soğuk vişneli içecek.",
+          "price": 50,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/6414118/pexels-photo-6414118.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "portakal-suyu",
+          "name": "Portakal Suyu",
+          "description": "Soğuk portakal içeceği.",
+          "price": 65,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/7655894/pexels-photo-7655894.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "limonata",
+          "name": "Limonata",
+          "description": "Ferah, soğuk limonata.",
+          "price": 70,
+          "available": true,
+          "featured": true,
+          "imageData": "https://images.pexels.com/photos/6414118/pexels-photo-6414118.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "ayran",
+          "name": "Ayran",
+          "description": "Soğuk servis edilir.",
+          "price": 40,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/35310432/pexels-photo-35310432.jpeg?auto=compress&cs=tinysrgb&w=900"
+        },
+        {
+          "id": "soguk-kahve",
+          "name": "Soğuk Kahve",
+          "description": "Buzlu ve sütlü kahve.",
+          "price": 125,
+          "available": true,
+          "featured": false,
+          "imageData": "https://images.pexels.com/photos/16615598/pexels-photo-16615598.jpeg?auto=compress&cs=tinysrgb&w=900"
+        }
+      ]
+    }
+  ]
+}

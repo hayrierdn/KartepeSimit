@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620">
+  <rect width="1400" height="620" fill="#f7faf9"/>
+  <rect x="0" y="0" width="1400" height="620" fill="#fff"/>
+  <rect x="90" y="110" width="1220" height="360" rx="28" fill="#f7faf9" stroke="#d9e2e7" stroke-width="10"/>
+  <rect x="135" y="350" width="1130" height="70" rx="18" fill="#0f766e"/>
+  <g transform="translate(190 165)">
+    <circle cx="95" cy="95" r="78" fill="#b86f23"/><circle cx="95" cy="95" r="38" fill="#fff"/>
+    <ellipse cx="290" cy="105" rx="105" ry="65" fill="#d99a43"/>
+    <path d="M455 160h210l-22-90H480z" fill="#d88c2d"/>
+    <rect x="760" y="85" width="190" height="105" rx="20" fill="#f5d6c6"/>
+    <path d="M760 85c35 25 70-20 105 0s55-16 85 0v32H760z" fill="#ef5f4c"/>
+  </g>
+  <text x="700" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="800" fill="#17212b">Kartepe Simit</text>
+</svg>

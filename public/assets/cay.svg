@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f7faf9"/>
+  <rect x="155" y="110" width="490" height="375" rx="28" fill="#fff" stroke="#d9e2e7" stroke-width="8"/>
+  <path d="M315 210h170l-35 185H350z" fill="#c85026"/>
+  <path d="M335 250h130" stroke="#f6c343" stroke-width="18" stroke-linecap="round"/>
+  <path d="M485 255c85-20 90 110-15 100" fill="none" stroke="#17212b" stroke-width="18" stroke-linecap="round"/>
+  <text x="400" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17212b">Çay</text>
+</svg>

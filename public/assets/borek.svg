@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f7faf9"/>
+  <rect x="75" y="105" width="650" height="380" rx="26" fill="#fff" stroke="#d9e2e7" stroke-width="8"/>
+  <path d="M170 360h460l-45-165H215z" fill="#d88c2d"/>
+  <path d="M215 195h370" stroke="#f6c343" stroke-width="18" stroke-linecap="round"/>
+  <path d="M230 245h340M250 295h300M275 345h250" stroke="#8f541d" stroke-width="12" stroke-linecap="round" opacity=".55"/>
+  <path d="M235 205l55 150M360 200l35 160M500 200l-30 160" stroke="#f7d48b" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+  <text x="400" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17212b">Börek</text>
+</svg>

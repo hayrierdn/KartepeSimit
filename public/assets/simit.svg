@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f7faf9"/>
+  <rect x="70" y="80" width="660" height="440" rx="28" fill="#fff" stroke="#d9e2e7" stroke-width="8"/>
+  <circle cx="400" cy="300" r="165" fill="#b86f23"/>
+  <circle cx="400" cy="300" r="88" fill="#fff"/>
+  <g fill="#f6d27a">
+    <circle cx="310" cy="180" r="13"/><circle cx="405" cy="155" r="12"/><circle cx="505" cy="190" r="14"/>
+    <circle cx="555" cy="295" r="12"/><circle cx="512" cy="410" r="13"/><circle cx="395" cy="448" r="12"/>
+    <circle cx="283" cy="400" r="14"/><circle cx="245" cy="285" r="12"/><circle cx="340" cy="240" r="10"/>
+    <circle cx="462" cy="245" r="10"/><circle cx="460" cy="360" r="11"/><circle cx="330" cy="350" r="10"/>
+  </g>
+  <text x="400" y="548" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17212b">Taze Simit</text>
+</svg>

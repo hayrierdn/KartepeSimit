@@ -1,0 +1,17 @@
+{
+  "name": "sabit-qr-menu",
+  "version": "1.0.0",
+  "description": "Kafeler icin sabit QR adresli, yonetilebilir dijital menu sistemi.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "qr",
+    "menu",
+    "cafe"
+  ],
+  "author": "",
+  "license": "MIT"
+}

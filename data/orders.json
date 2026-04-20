@@ -1,0 +1,58 @@
+[
+  {
+    "id": "siparis-mo6xx7hp-0e8ba4",
+    "createdAt": "2026-04-20T08:35:59.923Z",
+    "status": "done",
+    "orderType": "table",
+    "table": "",
+    "customer": {
+      "name": "",
+      "phone": "",
+      "address": "",
+      "note": "test"
+    },
+    "items": [
+      {
+        "id": "tas-firin-simit",
+        "name": "Taş Fırın Simit",
+        "category": "Simit ve Fırın",
+        "quantity": 1,
+        "unitPrice": 25,
+        "total": 25
+      }
+    ],
+    "subtotal": 25
+  },
+  {
+    "id": "siparis-mo6yo8lb-45a541",
+    "createdAt": "2026-04-20T08:57:01.061Z",
+    "status": "done",
+    "orderType": "table",
+    "table": "1",
+    "customer": {
+      "name": "",
+      "phone": "",
+      "address": "",
+      "note": "Hayri"
+    },
+    "items": [
+      {
+        "id": "tas-firin-simit",
+        "name": "Taş Fırın Simit",
+        "category": "Simit ve Fırın",
+        "quantity": 2,
+        "unitPrice": 25,
+        "total": 50
+      },
+      {
+        "id": "karisik-tost",
+        "name": "Karışık Tost",
+        "category": "Kahvaltı ve Tost",
+        "quantity": 1,
+        "unitPrice": 140,
+        "total": 140
+      }
+    ],
+    "subtotal": 190
+  }
+]

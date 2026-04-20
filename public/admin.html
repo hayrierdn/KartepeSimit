@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f766e">
+    <title>Menü Yönetimi</title>
+    <link rel="stylesheet" href="/styles.css?v=admin-final-2">
+  </head>
+  <body class="admin-page">
+    <header class="admin-header">
+      <div>
+        <p class="eyebrow">Kartepe Simit</p>
+        <h1>İşletme Paneli</h1>
+        <p>Günlük siparişleri takip et, ürünleri aç-kapat, fiyatları güncelle.</p>
+      </div>
+      <a class="button secondary" href="/">Menüyü Gör</a>
+    </header>
+
+    <main class="admin-shell">
+      <section class="login-panel" id="loginPanel">
+        <h2>Yönetici girişi</h2>
+        <p>Şifrenizi girerek yönetim panelini açın.</p>
+        <form id="loginForm" class="inline-form">
+          <input id="pinInput" type="password" placeholder="Şifre" autocomplete="current-password">
+          <button class="button" type="submit">Giriş</button>
+        </form>
+        <p class="status" id="loginStatus"></p>
+      </section>
+
+      <section class="admin-workspace" id="workspace" hidden>
+        <nav class="admin-home" aria-label="Günlük işler">
+          <button class="home-tile active" data-admin-tab="orders" type="button">
+            <strong>Siparişler</strong>
+            <span>Gelen siparişleri takip et</span>
+          </button>
+          <button class="home-tile" data-admin-tab="menu" type="button">
+            <strong>Menü</strong>
+            <span>Fiyat ve stok değiştir</span>
+          </button>
+          <button class="home-tile" data-admin-tab="qr" type="button">
+            <strong>QR Kodlar</strong>
+            <span>Masa QR adreslerini gör</span>
+          </button>
+          <button class="home-tile" data-admin-tab="business" type="button">
+            <strong>Kafe Bilgileri</strong>
+            <span>Logo, masa, paket ayarı</span>
+          </button>
+          <button class="home-tile tech-tile" data-admin-tab="technical" type="button">
+            <strong>Teknik</strong>
+            <span>Telegram, yedek, şifre</span>
+          </button>
+        </nav>
+
+        <div class="toolbar admin-tab-panel" data-admin-panel="menu">
+          <button class="button" id="saveButton">Kaydet</button>
+          <button class="button secondary" id="addCategoryButton">Kategori Ekle</button>
+        </div>
+
+        <section class="settings-panel admin-tab-panel" data-admin-panel="business">
+          <h2>Kafe bilgileri</h2>
+          <div class="form-grid">
+            <label>Kafe adı<input id="settingCafeName"></label>
+            <label>Slogan<input id="settingTagline"></label>
+            <label>Para birimi<input id="settingCurrency"></label>
+            <label>Masa sayısı<input id="settingTableCount" type="number" min="1" max="200"></label>
+            <label class="wide">Servis notu<input id="settingServiceNote"></label>
+            <label>Bildirim telefonu<input id="settingWhatsapp" placeholder="905..."></label>
+            <label class="check-label wide"><input id="settingDeliveryEnabled" type="checkbox"> Paket teslimat aktif</label>
+            <label class="wide">Kapak görseli bağlantısı<input id="settingHeroImage" placeholder="https://..."></label>
+          </div>
+          <div class="image-tools">
+            <div class="logo-preview" id="logoPreview">Logo yok</div>
+            <label class="button secondary file-button">
+              Firma Logosu Yükle
+              <input id="logoInput" type="file" accept="image/png,image/jpeg,image/webp,image/gif">
+            </label>
+            <button class="button quiet" id="removeLogoButton" type="button">Logoyu Kaldır</button>
+          </div>
+        </section>
+
+        <section class="qr-panel admin-tab-panel" data-admin-panel="qr">
+          <div>
+            <h2>QR adresleri</h2>
+            <p>Bu adresleri QR olarak bastırın. Menü değişse bile bu adresler değişmez.</p>
+          </div>
+          <button class="button secondary" id="loadQrButton">QR Listesini Göster</button>
+          <div class="qr-grid" id="qrGrid"></div>
+        </section>
+
+        <section class="orders-panel admin-tab-panel active" data-admin-panel="orders">
+          <div>
+            <h2>Siparişler</h2>
+            <p>Masa, gel-al ve paket teslimat siparişleri burada görünür.</p>
+          </div>
+          <div class="simple-actions">
+            <a class="button" href="/orders" target="_blank" rel="noreferrer">Tablet Ekranını Aç</a>
+            <button class="button secondary" id="loadOrdersButton">Yenile</button>
+          </div>
+          <div class="orders-list" id="ordersList"></div>
+        </section>
+
+        <section class="orders-panel admin-tab-panel" data-admin-panel="technical">
+          <div>
+            <h2>Telegram Bildirimi</h2>
+            <p>Siparişleri otomatik Telegram grubuna gönderir. Kafe için önerilen yöntem budur.</p>
+          </div>
+          <div class="form-grid">
+            <label class="wide">Bot Token<input id="telegramToken" type="password" placeholder="Bot token kayıtlıysa boş bırakın"></label>
+            <label class="wide">Chat ID<input id="telegramChatId" placeholder="-100..."></label>
+          </div>
+          <div class="toolbar inline-toolbar">
+            <button class="button secondary" id="findTelegramChatButton" type="button">Grubu Bul</button>
+            <button class="button secondary" id="saveTelegramButton" type="button">Telegram Ayarlarını Kaydet</button>
+            <button class="button secondary" id="testTelegramButton" type="button">Telegram Test Et</button>
+          </div>
+          <div class="status-box" id="telegramStatus">Durum yükleniyor...</div>
+        </section>
+
+        <section class="admin-tab-panel" data-admin-panel="menu">
+          <div class="section-title">
+            <p>Kategoriler ve Ürünler</p>
+            <span id="saveStatus">Hazır</span>
+          </div>
+          <div id="categoryEditor" class="category-editor"></div>
+        </section>
+
+        <section class="pin-panel admin-tab-panel" data-admin-panel="technical">
+          <h2>Şifre değiştir</h2>
+          <form id="pinForm" class="inline-form">
+            <input id="newPinInput" type="password" placeholder="Yeni şifre">
+            <button class="button secondary" type="submit">Şifreyi Kaydet</button>
+          </form>
+          <p class="status" id="pinStatus"></p>
+        </section>
+
+        <section class="orders-panel admin-tab-panel" data-admin-panel="technical">
+          <div>
+            <h2>Yedek ve Oturum</h2>
+            <p>Menü yedeği alın veya panelden çıkış yapın.</p>
+          </div>
+          <div class="simple-actions">
+            <button class="button secondary" id="exportButton">Yedek Al</button>
+            <label class="button secondary file-button">
+              Yedek Yükle
+              <input id="importInput" type="file" accept="application/json">
+            </label>
+            <button class="button quiet" id="logoutButton">Çıkış</button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/admin.js?v=admin-final-2"></script>
+  </body>
+</html>

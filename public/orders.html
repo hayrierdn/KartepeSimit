@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f766e">
+    <title>Kartepe Simit Sipariş Ekranı</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="tablet-page">
+    <header class="admin-header">
+      <div>
+        <p class="eyebrow">Kartepe Simit</p>
+        <h1>Sipariş Ekranı</h1>
+        <p>Yeni sipariş geldiğinde sesli uyarı verir.</p>
+      </div>
+      <button class="button secondary" id="soundButton" type="button">Sesi Aç</button>
+    </header>
+
+    <main class="admin-shell">
+      <section class="login-panel" id="tabletLoginPanel">
+        <h2>Yönetici girişi</h2>
+        <form id="tabletLoginForm" class="inline-form">
+          <input id="tabletPinInput" type="password" placeholder="Şifre" autocomplete="current-password">
+          <button class="button" type="submit">Giriş</button>
+        </form>
+        <p class="status" id="tabletLoginStatus"></p>
+      </section>
+
+      <section class="orders-panel tablet-orders" id="tabletWorkspace" hidden>
+        <div class="tablet-toolbar">
+          <div>
+            <h2>Canlı Siparişler</h2>
+            <p id="lastRefresh">Hazır</p>
+            <p id="dailySummary">Bugün: 0 sipariş</p>
+          </div>
+          <button class="button secondary" id="tabletRefreshButton" type="button">Yenile</button>
+        </div>
+        <div class="orders-list tablet-list" id="tabletOrdersList"></div>
+      </section>
+    </main>
+
+    <script src="/orders.js"></script>
+  </body>
+</html>

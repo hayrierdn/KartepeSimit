@@ -1,0 +1,16 @@
+{
+  "configured": false,
+  "apiVersion": "v21.0",
+  "phoneNumberIdSet": false,
+  "tokenSet": false,
+  "toSet": true,
+  "templateName": "kartepe_siparis_bildirimi",
+  "templateLanguage": "tr",
+  "lastAttemptAt": "2026-04-20T08:57:01.119Z",
+  "lastResult": {
+    "ok": false,
+    "skipped": true,
+    "message": "WhatsApp gönderilmedi: WHATSAPP_TOKEN, WHATSAPP_PHONE_NUMBER_ID veya alıcı numara eksik.",
+    "configured": false
+  }
+}
