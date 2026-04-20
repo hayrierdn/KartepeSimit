@@ -24,7 +24,7 @@ function loadEnvFile() {
 loadEnvFile();
 
 const PORT = Number(process.env.PORT || 3000);
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = process.env.RENDER ? "0.0.0.0" : (process.env.HOST || "127.0.0.1");
 const ROOT = __dirname;
 const PUBLIC_DIR = path.join(ROOT, "public");
 const DATA_FILE = path.join(ROOT, "data", "menu.json");
@@ -769,6 +769,12 @@ const server = http.createServer(async (req, res) => {
     }
 
     const staticPath = safeStaticPath(url.pathname);
+    if (req.method === "HEAD" && staticPath && fs.existsSync(staticPath) && fs.statSync(staticPath).isFile()) {
+      const ext = path.extname(staticPath).toLowerCase();
+      send(res, 200, "", MIME_TYPES[ext] || "application/octet-stream");
+      return;
+    }
+
     if (req.method === "GET" && staticPath && fs.existsSync(staticPath) && fs.statSync(staticPath).isFile()) {
       const ext = path.extname(staticPath).toLowerCase();
       send(res, 200, fs.readFileSync(staticPath), MIME_TYPES[ext] || "application/octet-stream");
